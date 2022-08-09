@@ -1,0 +1,22 @@
+{
+  "name": "laurence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoineThomasCode/Laurence.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoineThomasCode/Laurence/issues"
+  },
+  "homepage": "https://github.com/antoineThomasCode/Laurence#readme",
+  "dependencies": {
+    "sass": "^1.54.3"
+  }
+}
