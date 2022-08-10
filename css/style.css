@@ -132,9 +132,16 @@ main #infos div div > article > p > span {
 main #main_form {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 30px;
 }
 main #main_form h2 {
   justify-content: center;
+  border: solid 3px #29358C;
+  color: #29358C;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 220px;
+  margin: 20px auto;
 }
 main #main_form > form {
   display: flex;
@@ -176,17 +183,17 @@ main #main_form > form > div #message {
 main #main_form > form > button {
   display: flex;
   align-items: center;
-  font-size: 0.7em;
+  font-size: 0.9em;
   height: 30px;
   background-color: #29358C;
   color: white;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 20px 20px;
   border: none;
   border-radius: 5px;
   margin: 0 auto;
   position: relative;
-  bottom: -35px;
+  bottom: -40px;
 }
 
 /*# sourceMappingURL=style.css.map */

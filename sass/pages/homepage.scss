@@ -133,8 +133,15 @@ main {
     #main_form {
         display: flex;
         flex-wrap: wrap;
+        row-gap: 30px;
         h2{
             justify-content: center;
+            border: solid 3px #29358C;
+            color: #29358C;
+            border-radius: 5px;
+            padding: 10px;
+            max-width: 220px;
+            margin: 20px auto;
         }
         > form {
             display: flex;
@@ -175,17 +182,17 @@ main {
             > button {
                 display: flex;
                 align-items: center;
-                font-size: 0.7em;
+                font-size: 0.9em;
                 height: 30px;
                 background-color: #29358C;
                 color: white;
                 font-weight: 600;
-                padding: 10px 20px;
+                padding: 20px 20px;
                 border: none;
                 border-radius: 5px;
                 margin: 0 auto;
                 position: relative;
-                bottom: -35px;
+                bottom: -40px;
             }
         }
     }
