@@ -117,9 +117,13 @@ main #infos div div > article h3 {
   padding: 10px;
   border-radius: 5px;
 }
+main #infos div div > article .experience {
+  font-size: 0.7em;
+}
 main #infos div div > article > p {
   font-size: 1em;
   color: black;
+  padding: 0 20px;
 }
 main #infos div div > article > p > span {
   margin-right: 10px;
