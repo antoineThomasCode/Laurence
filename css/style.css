@@ -78,6 +78,30 @@ main #infos {
   display: flex;
   flex-wrap: wrap;
 }
+main #infos #call-to-action {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 22px 3px rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+}
+main #infos #call-to-action > div > p {
+  padding: 20px;
+  font-size: 0.7em;
+}
+main #infos #call-to-action > figure {
+  display: flex;
+  flex-basis: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+main #infos #call-to-action > figure > img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 main #infos .iInfos {
   display: flex;
   justify-content: center;
