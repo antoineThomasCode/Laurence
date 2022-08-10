@@ -196,4 +196,10 @@ main #main_form > form > button {
   bottom: -40px;
 }
 
+footer {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.1647058824);
+  height: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
