@@ -4,26 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laurence Mazue</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <meta
+    name="keywords"
+    content="Infirmière, libérale, troyes, à domicile, soins, santée"
+    />
+    <script src="https://kit.fontawesome.com/c4df895579.js" crossorigin="anonymous"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Laurence Meuzeret - Infirmière libérale à Troyes </title>
 </head>
 <body>
     <header>
-        <a href="#"><img src="" alt=""></a>
-        <nav>
-            <ul>
-                <a href="#"><li>Accueil</li></a>
-                <a href="#"><li>Accueil</li></a>
-                <a href="#"><li>Accueil</li></a>
-                <a href="#"><li>Accueil</li></a>
-            </ul>
-        </nav>
+        <div class="info-container">
+            <p><img src="/assets/icons/tel.png" alt="numero de telephone"> 06 00 00 00 00</p>
+            <p><img src="/assets/icons/icons8-trouver-une-clinique-64.png" alt="secteur"> Troyes et alentours</p>
+        </div>
+        <div>
+            <img src="/assets/logo/logo.gif" alt="">
+        </div>
     </header>
     <main>
-        <h1>Laurence Mazue <br>
-        Infirmière libérale à Troyes</h1>
+        <section id="infos">
+            <div>
+                <h2> <span class="iInfos">i</span>Informations générales </h2>
+                <div>
+                    <article>
+                        <h3>Horaires</h3>
+                        <p><span>Lundi : </span> 8h - 20h</p> <br>
+                        <p><span>Mardi : </span> 8h - 20h</p> <br>
+                        <p><span>Mercredi : </span> 8h - 20h</p> <br>
+                        <p><span>Jeudi : </span> 8h - 20h</p> <br>
+                        <p><span>Vendredi : </span> 8h - 20h</p> <br>
+                        <p><span>Samedi : </span> 8h - 20h</p> <br>
+                        <p><span>Dimanche : </span> 8h - 20h</p> <br>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="main_form">
+            <h2>
+                Demander un devis
+            </h2>
+            <form action="POST">
+                <p>
+                    N'hésitez pas à me demander un devis pour vos soins. Je vous répondrai dans les meilleurs délais
+                </p>
+                <div >
+                    <label for="firstname">Nom </label>
+                    <input type="text" name="firstname" id="firstname" required>
+                </div>
+                <div >
+                    <label for="lastname">Prénom  </label>
+                    <input type="text" name="lastname" id="name" required>
+                </div>
+                <div >
+                    <label for="phone">Numéro de telephone </label>
+                    <input type="phone" name="phone" id="phone" required>
+                </div>
+                <div >
+                    <label for="email">Email </label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div >
+                    <label for="message">Veuillez m'indiquer les soins dont vous avez besoin : </label>
+                    <textarea name="comment" id="message">veuillez renseigner ici, le type de soin, la récurrence et le lieu de déplacement</textarea>
+                </div>
 
-        <section id="call-to-action">
-            
+                <button>Recevoir un devis</button>
+            </form>
         </section>
     </main>
     <footer>

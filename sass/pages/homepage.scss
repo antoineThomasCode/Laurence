@@ -1,0 +1,182 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+font-family: Raleway;
+font-size: 20px;
+}
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 200px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    .info-container {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 10px;
+        > p {
+            font-size: 0.6em;
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            > img {
+                height: 40px;
+                margin-right: 10px;
+            }
+        }
+    }
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 40px auto;
+      flex-basis: 100%;
+
+      > img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 180px;
+        position: relative;
+        top: 50px;
+        height: 300px;
+      }
+    }
+}
+main {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    h2 {
+        display: flex;
+        flex-basis: 100%;
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    > section {
+        display: flex;
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    #infos {
+        display: flex;
+        flex-wrap: wrap;
+        .iInfos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            border: solid 1px black;
+            border-radius: 50%;
+            padding: 5px;
+            width: 20px;
+            height: 20px;
+            font-size: 0.6em;
+        }
+        div {
+            display: flex;
+            flex-wrap: wrap;
+             div {
+                display: flex;
+                flex-basis: 100%;
+                justify-content: center;
+                > article {
+                    box-shadow: 2px 2px 22px 3px rgba(0,0,0,0.09);
+                    border-radius: 20px;
+                    padding: 20px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    flex-basis: 100%;
+                    h3 {
+                        margin-bottom: 20px;
+                        font-size: 0.9em;
+                    }
+                    > p {
+                        font-size: 1em;
+                        color: black;
+                        
+                        > span {
+                            margin-right: 10px;
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    #main_form {
+        display: flex;
+        flex-wrap: wrap;
+        h2{
+            justify-content: center;
+        }
+        > form {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            flex-basis: 100%;
+            box-shadow: 2px 2px 22px 3px rgba(0,0,0,0.09);
+            border-radius: 20px;
+            row-gap: 20px;
+            > p {
+                font-size: 0.7em;
+                font-weight: 400;
+            }
+            > div {
+                display: flex;
+                flex-basis: 100%;
+                flex-wrap: wrap;
+                row-gap: 10px;
+                > label {
+                    display: flex;
+                    flex-basis: 100%;
+                    font-size: 0.7em;
+                }
+                > input {
+                    border-radius: 5px;
+                    height: 30px;
+                    border: solid 1px lightgray;
+                    display: flex;
+                    flex-basis: 100%;
+                }
+                #message {
+                    height: 300px;
+                    flex-basis: 100%;
+                    border-radius: 5px;
+                    border: solid 1px lightgray;
+                }
+            }
+            > button {
+                display: flex;
+                align-items: center;
+                font-size: 0.7em;
+                height: 30px;
+                background-color: #29358C;
+                color: white;
+                font-weight: 600;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;
+                bottom: -35px;
+            }
+        }
+    }
+}
