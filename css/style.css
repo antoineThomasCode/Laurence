@@ -20,6 +20,7 @@ header {
   height: 200px;
   font-weight: 300;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 100px;
 }
 header .info-container {
   width: 100%;
@@ -43,18 +44,32 @@ header .info-container > p > img {
 }
 header > div {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   max-width: 1200px;
   margin: 40px auto;
   flex-basis: 100%;
+  justify-content: space-between;
+}
+header > div > div {
+  display: flex;
+  align-items: center;
+  background-color: #29358C;
+  flex-basis: 50%;
+  position: relative;
+  top: 60px;
+}
+header > div > div h1 {
+  font-size: 1.3em;
+  padding: 20px;
+  color: white;
+  font-weight: 800;
 }
 header > div > img {
   object-fit: cover;
-  width: 100%;
-  max-height: 180px;
   position: relative;
-  top: 50px;
-  height: 300px;
+  top: 80px;
+  left: 30px;
+  height: 200px;
 }
 
 main {
