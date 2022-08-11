@@ -38,10 +38,11 @@ header > div > div {
   flex-basis: 50%;
 }
 header > div > div h1 {
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 20px;
   color: white;
-  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-weight: 600;
 }
 header > div > img {
   object-fit: cover;
@@ -78,9 +79,41 @@ main #infos #call-to-action {
   box-shadow: 2px 2px 22px 3px rgba(0, 0, 0, 0.09);
   border-radius: 20px;
 }
-main #infos #call-to-action > div > p {
-  padding: 20px;
-  font-size: 0.7em;
+main #infos #call-to-action > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+main #infos #call-to-action > div > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+main #infos #call-to-action ul {
+  display: flex;
+}
+main #infos #call-to-action ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+main #infos #call-to-action ul li .calltoaction_elements {
+  font-weight: 800;
+  font-size: 1.3em;
+  margin-right: 10px;
+  min-width: 90px;
+}
+main #infos #call-to-action ul li span:nth-child(3) {
+  background-color: rgba(47, 67, 212, 0.5568627451);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+main #infos #call-to-action .calltoaction_icons {
+  height: 25px;
+  margin-right: 10px;
 }
 main #infos #call-to-action > figure {
   display: flex;
