@@ -176,6 +176,7 @@ main #main_form h2 {
   border: solid 3px #29358C;
   color: #29358C;
   border-radius: 5px;
+  max-height: 50px;
   padding: 10px;
   max-width: 220px;
   margin: 20px auto;
